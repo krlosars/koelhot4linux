@@ -1,0 +1,17 @@
+# description	: Leafpad - A GTK2 Text Editor
+# homepage	: http://tarot.freeshell.org/leafpad/
+# depends	: gtk2-devel
+
+name=leafpad
+version=0.8.17
+release=1
+noextract=""
+backup=""
+source="http://savannah.nongnu.org/download/leafpad/leafpad-0.8.17.tar.gz"
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
