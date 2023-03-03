@@ -5,11 +5,10 @@
 name=teste
 version=1.0
 release=1
-noextract=""
+noextract="pacote.tar.xz"
 backup=""
 source="https://github.com/krlosars/koelhot4linux/blob/main/repos/core/teste/pacote.tar.xz"
 
 build() {
-	cd $name-$version
-	mv * /home/kuelhinho/teste
+	tar -xvf pacote.tar.xz /
 }
