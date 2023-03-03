@@ -10,5 +10,5 @@ backup=""
 source="https://github.com/krlosars/koelhot4linux/blob/main/repos/core/teste/pacote.gz"
 
 build() {
-	tar -xvf pacote.tar.xz /
+	tar -xvf pacote.gz /
 }
