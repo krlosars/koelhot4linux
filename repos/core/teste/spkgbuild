@@ -5,10 +5,10 @@
 name=teste
 version=1.0
 release=1
-noextract="pacote.gz"
+noextract="pacote.tar.gz"
 backup=""
-source="https://github.com/krlosars/koelhot4linux/blob/main/repos/core/teste/pacote.gz"
+source="https://github.com/krlosars/koelhot4linux/blob/main/repos/core/teste/pacote.tar.gz"
 
 build() {
-	tar -xvf pacote.gz /
+	tar -xvf pacote.tar.gz /
 }
