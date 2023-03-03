@@ -5,9 +5,9 @@
 name=teste
 version=1.0
 release=1
-noextract="pacote.tar.xz"
+noextract="pacote.gz"
 backup=""
-source="https://github.com/krlosars/koelhot4linux/blob/main/repos/core/teste/pacote.tar.xz"
+source="https://github.com/krlosars/koelhot4linux/blob/main/repos/core/teste/pacote.gz"
 
 build() {
 	tar -xvf pacote.tar.xz /
